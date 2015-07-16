@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.callista.microservises.support.discovery.ApplicationTests" tests="2" skipped="2" failures="0" errors="0" timestamp="2015-07-16T07:43:43" hostname="Matts-MBP.home" time="0.001">
+  <properties/>
+  <testcase name="catalogLoads" classname="se.callista.microservises.support.discovery.ApplicationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="adminLoads" classname="se.callista.microservises.support.discovery.ApplicationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[08:43:43.617 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class se.callista.microservises.support.discovery.ApplicationTests].
+08:43:43.634 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+08:43:43.650 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@719c78e declaringClass = 'se.callista.microservises.support.discovery.ApplicationTests', classes = '{class se.callista.microservises.support.discovery.EurekaApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+08:43:43.656 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [se.callista.microservises.support.discovery.ApplicationTests]
+08:43:43.661 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+08:43:43.663 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+08:43:43.663 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@662aea7f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@584f8db9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e97ab95]
+08:43:43.665 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [se.callista.microservises.support.discovery.ApplicationTests]
+08:43:43.666 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [se.callista.microservises.support.discovery.ApplicationTests]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
